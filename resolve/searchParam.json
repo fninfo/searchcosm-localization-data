@@ -90,6 +90,20 @@
 
 	"sort": [],
 
+	"showTime": [
+		"показатьвремя"
+	],
+
+	"showLastSeen": [],
+
+	"showDatesOnly": [
+		"толькодаты", "показатьдаты"
+	],
+
+	"showGameplayTagsOnly": [
+		"толькотеги", "показатьтеги"
+	],
+
 	"prod": [],
 
 	"maxGeneratedCount": [
