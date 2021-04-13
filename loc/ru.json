@@ -10,7 +10,7 @@
 	"result": {
 		"bulkFoundItems": "Найдено предметов: ${foundCount}",
 		"bulkFoundItemsSliced": "Найдено предметов: ${foundCount}. Сгенерированы картинки первых ${generatedCount} определений",
-		"detailed": "ID: <b>${id}</b>\nТип: <b>${type}</b>\nСерия: <b>${series}</b>\nРедкость: <b>${rarity}</b>\n\n<b><u>Даты выхода:</u></b> ${shopHistory}\n\n<b><u>Геймплейные теги:</u></b> ${gameplayTags}\n\nУстановили напоминание: недоступно",
+		"detailed": "ID: <b>${id}</b>\nТип: <b>${type}</b>\nСерия: <b>${series}</b>\nРедкость: <b>${rarity}</b>\n\n<b><u>Даты выхода:</u></b> ${shopHistory}\n\n<b><u>Геймплейные теги:</u></b> ${gameplayTags}",
 		"showDatesOnly": "Даты выхода в магазине:\n${shopHistory}",
 		"showGameplayTagsOnly": "Геймплейные теги:\n${gameplayTags}",
 		"shopDatesSliced": "<b>(${displayed}/${total}). Чтобы вывести все, добавьте парам. -толькодаты</b>",
@@ -30,6 +30,7 @@
 		"invalidNumber": "Параметр \"${prop}\": ожидалось число. Получено \"${val}\"",
 		"invalidBool": "Параметр \"${prop}\": ожидалось нет или да. Получено \"${val}\"",
 		"tooManyItems": "Вашему запросу соответствует слишком много предметов (${foundCount}). Для формирования выдачи необходимо, чтобы нашлось не больше ${maxCount} предметов",
+		"multiReqTooManyRequests": "В строке содержится слишком много запросов (${reqCount}). Допустимо не более ${maxCount} запросов",
 		"itemsNotFound": "Предметы не найдены (${lang})",
 		"unsupportedFeature": "Эта функциональность пока не поддерживается",
 		"cannotCreateOrMerge": "Произошла ошибка при генерации или совмещении изображений",
