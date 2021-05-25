@@ -1,0 +1,20 @@
+{
+	"DMY": [
+		{
+			"pattern": "DD.MM.YYYY HH:mm",
+			"endOf": "m"
+		},
+		{
+			"pattern": "DD.MM.YYYY",
+			"endOf": "D"
+		},
+		{
+			"pattern": "MM.YYYY",
+			"endOf": "M"
+		},
+		{
+			"pattern": "YYYY",
+			"endOf": "Y"
+		}
+	]
+}

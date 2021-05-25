@@ -4,6 +4,7 @@
 		"languageName": "русский",
 		"gameLanguageName": "русский",
 		"timezone": "Europe/Moscow",
-		"timezoneName": "по МСК"
+		"timezoneName": "по МСК",
+		"dateFormat": "DMY"
 	}
 }
