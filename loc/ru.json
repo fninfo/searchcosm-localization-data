@@ -10,6 +10,7 @@
 	"result": {
 		"bulkFoundItems": "Найдено предметов: ${foundCount}",
 		"bulkFoundItemsSliced": "Найдено предметов: ${foundCount}. Сгенерированы картинки первых ${generatedCount} определений",
+		"dumpLockerFoundItems": "Найдено предметов: ${foundCount}. Применено имя пользователя \"${userId}\"",
 		"detailed": "ID: <b>${id}</b>\nТип: <b>${type}</b>\nСерия: <b>${series}</b>\nРедкость: <b>${rarity}</b>\n\n<b><u>Даты выхода:</u></b> ${shopHistory}\n\n<b><u>Геймплейные теги:</u></b> ${gameplayTags}",
 		"showDatesOnly": "Даты выхода в магазине:\n${shopHistory}",
 		"showGameplayTagsOnly": "Геймплейные теги:\n${gameplayTags}",
@@ -42,7 +43,8 @@
 			"pagesCount": "Ошибка. Число страниц должно находиться в диапазоне от ${min} до ${max} единиц",
 			"triggerSplitCount": "Вы ввели некорректное число иконок на странице. Допустимый диапазон значений: от ${min} до ${max} иконок",
 			"marginPercent": "Некорректный размер отступа. Допустимый диапазон значений: от ${min} до ${max} единиц",
-			"headerCoefPercent": "Такой размер заголовка не поддерживается. Пожалуйста, используйте коэффициент от ${min} до ${max}"
+			"headerCoefPercent": "Такой размер заголовка не поддерживается. Пожалуйста, используйте коэффициент от ${min} до ${max}",
+			"incompatibleParams": "Некоторые параметры поиска несовместимы между собой. Пожалуйста, проверьте, имеют ли они смысл вместе"
 		}
 	},
 	"baseValue": {
