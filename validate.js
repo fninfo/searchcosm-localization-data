@@ -40,6 +40,8 @@ try {
 			if (typeof langData[lang][prop] !== 'string' || !langData[lang][prop] instanceof String)
 				console.log(`Missing or incorrect property in lang-data: "${prop}", language "${lang}"`)
 		}
+		if (langData[lang].dateFormat !== 'DMY' && langData[lang].dateFormat !== 'MDY')
+			console.log(`Missing or incorrect dateFormat: "${langData[lang].dateFormat}", language "${lang}"`)
 	}
 } catch (err) {
 	console.log(`Cannot handle file ${file}: ${err.message}`);
